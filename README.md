@@ -1,6 +1,8 @@
-# Unit 3 | Assignment - Py Me Up, Charlie
+# Python-Challenge
 
-## Background
+## Unit 3 | Assignment - Py Me Up, Charlie
+
+### Background
 
 Well... you've made it!
 
@@ -17,7 +19,7 @@ Both of these challenges encompasses a real-world situation where your newfound 
 
 4. Push the above changes to GitHub.
 
-## PyBank
+### PyBank
 
 ![Revenue](Images/revenue-per-lead.jpg)
 
@@ -49,7 +51,7 @@ Both of these challenges encompasses a real-world situation where your newfound 
 
 * In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
-## PyPoll
+### PyPoll
 
 ![Vote-Counting](Images/Vote_counting.jpg)
 
@@ -85,7 +87,7 @@ Both of these challenges encompasses a real-world situation where your newfound 
 
 * In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
-## Hints and Considerations
+### Hints and Considerations
 
 * Consider what we've learned so far. To date, we've learned how to import modules like `csv`; to read and write files in various formats; to store contents in variables, lists, and dictionaries; to iterate through basic data structures; and to debug along the way. Using what we've learned, try to break down you tasks into discrete mini-objectives. This will be a _much_ better course of action than attempting to Google Search for a miracle.
 
@@ -101,6 +103,6 @@ Both of these challenges encompasses a real-world situation where your newfound 
 
   * **Commit often**.
 
-## Copyright
+### Copyright
 
 Trilogy Education Services © 2018. All Rights Reserved.
