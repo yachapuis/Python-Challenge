@@ -52,7 +52,7 @@ with open(csv_path) as budget_data:
         # Calculate change of revenue between months
         change_revenue = int(row[1]) - revenue_memory
         revenue_memory = int(row[1])
-        change_revenue_list = change_revenue_list + change_revenue
+        change_revenue_list = change_revenue_list.append(change_revenue)
 
         # Calculate the greatest increase in profits (date and amount) over the entire period
         if change_revenue > top_benefit[1]:
