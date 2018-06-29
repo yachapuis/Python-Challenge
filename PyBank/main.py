@@ -26,7 +26,7 @@ revenue_memory = 0
 change_revenue_list = []
 average_change = 0
 # month_change = []
-top_benefit = ["", 0]
+top_profit = ["", 0]
 top_losses = ["", 9999999999999999999]
 
 # Read the csv file and convert it into lists
@@ -55,9 +55,9 @@ with open(csv_path) as budget_data:
         change_revenue_list.append(change_revenue)
 
         # Calculate the greatest increase in profits (date and amount) over the entire period
-        if change_revenue > top_benefit[1]:
-            top_benefit[1] = change_revenue
-            top_benefit[0] = row[0]
+        if change_revenue > top_profit[1]:
+            top_profit[1] = change_revenue
+            top_profit[0] = row[0]
 
          # Calculate greatest decrease in losses (date and amount) over the entire period
         if change_revenue < top_losses[1]:
