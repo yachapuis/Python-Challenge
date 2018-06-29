@@ -84,5 +84,5 @@ output = (
 print(output)
 
 # Export the results to text file
-with open(text_output, "w") as txt_file:
+with open(txt_output, "w") as txt_file:
     txt_file.write(output)
