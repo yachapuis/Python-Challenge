@@ -13,7 +13,7 @@ import csv
 # ------------------------------------------
 # Set path for file
 csv_path = os.path.join("budget_data.csv")
-txt_output = os.path.join("analysis", "election_analysis.txt")  
+txt_output = os.path.join("election_analysis.txt")  
 # 
 # ------------------------------------------
 # Main
@@ -84,5 +84,5 @@ output = (
 print(output)
 
 # Export the results to text file
-with open(file_to_output, "w") as txt_file:
+with open(text_output, "w") as txt_file:
     txt_file.write(output)
