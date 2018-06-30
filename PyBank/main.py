@@ -49,7 +49,7 @@ with open(csv_path) as budget_data:
         change_revenue_list.append(change_revenue)
 
         # Calculate the greatest increase in profits (date and amount) over the entire period
-        if change_revenue > top_profit[1]:
+        if change_revenue > top_profit_list[1]:
             top_profit_list[1] = change_revenue
             top_profit_list[0] = row[0]
 
