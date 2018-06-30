@@ -11,9 +11,8 @@ import csv
 # ------------------------------------------
 #  CSV Files
 # ------------------------------------------
-# Set path for file
+# Set path for input file
 csv_path = os.path.join("budget_data.csv")
-txt_output = os.path.join("budget_analysis.txt")  
 # 
 # ------------------------------------------
 # Main
@@ -77,6 +76,9 @@ output = (
 # Print the output (to terminal)
 print(output)
 
+# Set path for output file
+txt_output = os.path.join("budget_analysis.txt")  
+
 # Export the results to text file
 with open(txt_output, "w") as txt_file:
-    txt_file.write(output)
+    txt_file.write(output) 
