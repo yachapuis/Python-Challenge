@@ -13,7 +13,7 @@ import csv
 # ------------------------------------------
 # Set path for file
 csv_path = os.path.join("budget_data.csv")
-txt_output = os.path.join("election_analysis.txt")  
+txt_output = os.path.join("budget_analysis.txt")  
 # 
 # ------------------------------------------
 # Main
