@@ -54,7 +54,7 @@ with open(csv_path) as budget_data:
             top_profit_list[0] = row[0]
 
          # Calculate greatest decrease in losses (date and amount) over the entire period
-        if change_revenue < top_losses[1]:
+        if change_revenue < top_losses_list[1]:
             top_losses_list[1] = change_revenue
             top_losses_list[0] = row[0]
 
