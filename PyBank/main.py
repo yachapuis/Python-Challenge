@@ -77,7 +77,7 @@ output = (
 print(output)
 
 # Set path for output file
-txt_output = os.path.join("budget_analysis.txt")  
+txt_output = os.path.join("budget_analysis.md")  
 
 # Export the results to text file
 with open(txt_output, "w") as txt_file:
