@@ -1,5 +1,6 @@
-# main.py
 # PyBank
+# main.py
+# by Yves-Andre Chapuis
 #
 # ------------------------------------------
 #  Require Dependencies
