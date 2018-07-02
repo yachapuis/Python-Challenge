@@ -1,4 +1,6 @@
 # PyPoll
+# main.py
+# by Yves-Andre Chapuis
 #
 # ------------------------------------------
 #  Require Dependencies
